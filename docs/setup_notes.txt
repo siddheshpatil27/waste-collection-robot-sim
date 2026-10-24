@@ -1,0 +1,9 @@
+CoppeliaSim setup notes:
+- Add 4 joints named J1, J2, J3, J4
+- Add gripper joints named GripperLeft and GripperRight
+- Add ProxSensor and Camera
+- Attach robot_child_script.lua as a child script
+- Attach scenery_scene_script.lua as a scene script
+- Start CoppeliaSim simulation
+- Run python/waste_robot_dashboard.py
+- Make sure the Python remote API is available in the environment

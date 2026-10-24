@@ -14,23 +14,25 @@ It includes:
 waste-collection-robot-sim/
 ├── README.md
 ├── requirements.txt
+├── .gitignore
 ├── coppeliasim/
 │   ├── robot_child_script.lua
 │   └── scenery_scene_script.lua
 ├── python/
 │   └── waste_robot_dashboard.py
-└── .gitignore
+└── docs/
+    └── setup_notes.txt
 ```
 
 ## Features
 
 - 4-DOF robotic arm
-- Target position control using signals and a Lua child script
+- Target position control using signals and Lua child script
 - Proximity sensor detection
 - Conveyor area and waste collection environment
 - Camera setup for monitoring
 - Waste bin collection area
-- Python control dashboard with Start / Stop / Monitor functions
+- Python control dashboard with Start/Stop/Monitor functions
 - Inverse kinematics approximation using SciPy optimization
 
 ## Requirements
